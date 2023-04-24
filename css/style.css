@@ -1,0 +1,421 @@
+/* Gerais */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 2.5rem 0;
+}
+
+p, li {
+    color: #f782be;
+    font-size: 1rem;
+}
+
+/* Barra de Navegação */
+
+header, .navbar {
+    background-color: #fdd0e7;
+    padding: 1rem 7rem;
+}
+
+#navbar-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 10rem;
+    padding: 0.8rem;
+    padding-bottom: 1.25rem;
+}
+
+#logo:hover {
+    opacity: 0.7;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #f266ab;
+}
+
+.navbar-brand:hover {
+    color: #f1a7cc;
+}
+
+#navbar-links {
+
+}
+
+#navbar-links a {
+    color: #f266ab;
+    margin-right: 1.6rem;
+    font-size: 1.3rem;
+}
+
+#navbar-links a:hover {
+    background-color: #ffc1e1;
+    border-top: 3px solid #f266ab;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
+
+.navbar-toggler-icon {
+    padding: 1.25rem;
+    border: 1px solid #f266ab;
+    background-color: #f266ab;
+    border-radius: 5px 10px 5px 10px;
+}
+
+/* Slider */
+
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 80vh;
+}
+
+#mainSlider img {
+    opacity: 0.8;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 3rem;
+    margin-bottom: 1.875rem;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 1.375rem;
+    font-weight: 300;
+    margin-bottom: 4.375rem;
+    color: #fff;
+}
+
+.main-btn {
+    background-color: #f266ab;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 12.5rem;
+    height: 3.75rem;
+    padding: 0.625rem 1.25rem;
+    border-radius: 30px;
+    border: 3px solid #f266ab;
+    transition: .5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+}
+
+.carousel-indicators .active {
+    background-color: #f266ab;
+}
+
+#about-area {
+    background-color: #f9f9f9;
+}
+
+.main-tittle {
+    color: #f266ab;
+    margin: 0 0 4rem 0;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.main-tittle::after {
+    content: "";
+    border-top: 2px solid #f266ab;
+    width: 15%;
+    position: absolute;
+    top: 4rem;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 1.0625rem;
+    color: #f266ab;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.tittle-card {
+    color: #f266ab;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+iframe {
+    width: 100%;
+    height: 26.25rem;
+}
+
+textarea.form-control {
+    height: 90px;
+    resize: none;
+}
+
+form, .alert {
+    margin-bottom: 0;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active {
+  color: #ffffff;
+  background-color: pink;
+  border-color: pink;
+}
+
+/*Footer*/
+
+#contact-area {
+    background-color: #f9f9f9;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-box {
+    padding-bottom: 3.125rem;
+    margin-bottom: 3.125rem;
+    border-bottom: 1px solid #f266ab;
+}
+
+.contact-box i {
+    color: #f266ab;
+    border: solid 1px #f266ab;
+    border-radius: 50%;
+    width: 3.4375rem;
+    height: 3.4375rem;
+    line-height: 3.4375rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.contact-box p {
+    font-size: 1rem;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: #f266ab;
+}
+
+.copy-area {
+    background-color: #fbd0e7;
+}
+
+.copy-area .container {
+    padding: 0.625rem;
+    text-align: center;
+}
+
+.copy-area .container p {
+    margin-bottom: 0;
+}
+
+.copy-area .container a {
+    font-weight: bold;
+    color: #f266ab;
+}
+
+.copy-area .container a:hover {
+    text-decoration: none;
+}
+
+@media(max-width: 1260px) {
+
+}
+
+/* Responsive */
+@media(max-width: 1260px) {
+    /* Geral */
+    .container {
+        padding: 1.25rem 0;
+    }
+
+    /* Header */
+    header, .navbar {
+        padding: 0;
+    }
+
+    #logo {
+        width: 10rem;
+    }
+
+    .navbar-toggler-icon {
+        padding: 0.8rem;
+        border: 1px solid #f266ab;
+        background-color: #f266ab;
+        border-radius: 5px 10px 5px 10px;
+    }
+
+    #menu .navbar-nav a {
+        margin-right: 0;
+        text-align: center;
+        
+    }
+
+    /* Slider */
+    #mainSlider .carousel-inner, #mainSlider .carousel-item {
+        height: auto;
+    }
+
+    #mainSlider .carousel-caption h2 {
+        font-size: 1.75rem;
+    }
+
+    #mainSlider .carousel-caption p {
+        font-size: 1.125rem;
+        margin-bottom: 2.5rem;
+    }
+
+    /* About */
+
+    #about-area img {
+        margin-top: 2.25rem;
+    }
+
+    #about-area .main-tittle {
+        font-size: 1.875rem;
+        margin: 0 0 2.5rem 0;
+    }
+
+    .main-tittle::after {
+        top: 3rem;
+    }
+
+    /* Formulário */
+    #perguntas .tittle-card{
+        font-size: 1.5rem;
+    }
+
+    #perguntas .form-group {
+        font-size: 0,9625rem;
+    }
+
+    /* Contato */
+
+    #contact-area .main-tittle{
+        font-size: 1.875rem;
+        margin: 0 0 2.5rem 0;
+    }
+        
+    #contact-area .contact-box {
+        padding-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+}
+
+@media(max-width: 425px) {
+
+    /* Slider */
+    #mainSlider {
+        margin-top: 3.325rem;
+    }
+
+    #mainSlider .carousel-caption {
+        top: 10%;
+    }
+
+    #mainSlider .carousel-caption h2{
+        font-size: 1.5rem;
+        margin-bottom: 3.5rem;
+    }
+
+    #mainSlider .carousel-caption p{
+        display: none;
+    }
+
+    #mainSlider img {
+        opacity: 0.8;
+    }
+
+    #mainSlider .main-btn {
+        font-size: 0.7rem;
+    }
+
+    /* About */
+
+    .main-title {
+        font-size: 1.875rem;
+    }
+
+    #about-area img {
+        margin-top: 0;
+    }
+
+    #about-area .img-fluid {
+        height: 12.5rem;
+        margin-bottom: 1.875rem;
+    }
+
+    #about-area .container .img-center {
+        text-align: center;
+    }
+
+    /* Perguntas */
+
+    #perguntas .card {
+        width: 100%;
+        margin-bottom: 1.875rem;
+    }
+
+    /*Contato*/
+    
+    .contact-box {
+        border: none;
+        margin-bottom: 0;
+    }
+}
+
+/* Missão, visão e valores*/
+
+.maintitle2{
+    padding: 2.5%;
+    text-align: center;
+    font-size: 4em;
+    color: #ff0084;
+    text-decoration: underline 0.2rem;
+}
+
+.title{
+    padding: 1.5%;
+    text-align: center;
+    font-size: 3em;
+    color: #ff0084;
+}
+
+.subtitle{
+    color: #f266ab;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 0.5%;
+}
+
+/* Rolagem */
+
+html{
+    scroll-behavior: smooth;
+}
