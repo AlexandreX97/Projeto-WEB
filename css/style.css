@@ -392,14 +392,6 @@ form, .alert {
 
 /* Missão, visão e valores*/
 
-.maintitle2{
-    padding: 2.5%;
-    text-align: center;
-    font-size: 4em;
-    color: #ff0084;
-    text-decoration: underline 0.2rem;
-}
-
 .title{
     padding: 1.5%;
     text-align: center;
@@ -412,6 +404,11 @@ form, .alert {
     text-align: center;
     font-size: 1.5em;
     padding: 0.5%;
+    list-style: none;
+}
+
+#fonte{
+    font-size: 4em;
 }
 
 /* Rolagem */
