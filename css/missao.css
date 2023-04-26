@@ -1,0 +1,23 @@
+.main-tittle {
+    color: #f266ab;
+    margin: 0 0 4rem 0;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.main-tittle::after {
+    content: "";
+    border-top: 2px solid #f266ab;
+    width: 15%;
+    position: absolute;
+    top: 4rem;
+    left: 42.5%;
+}
+
+#missao{
+    background-color: #f9f9f9;
+}
+
+#valores {
+    background-color: #f9f9f9;
+}

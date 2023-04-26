@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+}
+
+#form {
+    padding: 1.6rem;
+    border: 2px solid rgb(221, 221, 221);
+}
+
+#btn:hover,
+#btn:focus,
+#btn:active,
+#btn.active {
+  color: #ffffff;
+  background-color: pink;
+  border-color: pink;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.position{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
